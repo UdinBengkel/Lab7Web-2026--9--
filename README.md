@@ -189,6 +189,9 @@ $(document).ready(function() {
     // Pemuatan data pertama kali saat halaman diakses
     fetchData('/admin/artikel');
 });
+</script>
+
+<?= $this->include('template/admin_footer'); ?>
 ```
 
 ## 📷 Screenshot
@@ -196,7 +199,7 @@ $(document).ready(function() {
 
 ### Tampilan Indikator Loading
 
-![Screenshot Daftar Artikel](gambar/daftar.png)
+![Screenshot Daftar Artikel](gambar/indikator.png)
 
 ---
 
@@ -206,6 +209,3 @@ $(document).ready(function() {
 ![Screenshot Form Tambah](gambar/data.png)
 
 ---
-</script>
-
-<?= $this->include('template/admin_footer'); ?>
